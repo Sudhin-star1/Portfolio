@@ -1,272 +1,279 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    --bcolor1: #0B0C10;
-    --bcolor2: #1F2833;
-    --bcolor3: #C5C6C7;
-    --bcolor4: #66FCF1;
-    --bcolor5: #45A29E;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  --bcolor1: #0b0c10;
+  --bcolor2: #1f2833;
+  --bcolor3: #c5c6c7;
+  --bcolor4: #66fcf1;
+  --bcolor5: #45a29e;
 }
 
-html{
-    font-size: 62.5%;
-    scroll-behavior: smooth;
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-body{
-    background-color: var(--bcolor1);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+body {
+  background-color: var(--bcolor1);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
-section{
-    min-height: 100vh;
+section {
+  min-height: 100vh;
 }
 
 h1,
 h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   text-align: center;
 }
 
-h1{
-    font-size: 3rem;
-    color: var(--bcolor3);
+h1 {
+  font-size: 3rem;
+  color: var(--bcolor3);
 }
 
-h2{
-    font-size: 2.5rem;
-    font-style: italic;
-    color: var(--bcolor4);
+h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  color: var(--bcolor4);
 }
 
-nav{
-    background-color: var(--bcolor2);
-    padding: 2rem;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    display: flex;
-    justify-content: space-between;
-    z-index: 1;
-    align-items: center;
+nav {
+  background-color: var(--bcolor2);
+  padding: 2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  align-items: center;
 }
 
-button{
-    position: relative;
-    left: 10rem;
+button {
+  position: relative;
+  left: 10rem;
 }
 
-a{
-    font-size: 2rem;
-    text-decoration: none;
-    margin: auto 1rem;
-    color: var(--bcolor4);
+a {
+  font-size: 2rem;
+  text-decoration: none;
+  margin: auto 1rem;
+  color: var(--bcolor4);
 }
 
-#logo{
-    border-radius: 50%;
+#logo {
+  border-radius: 50%;
 }
 
-#welcome-section{
-    background: linear-gradient(45deg, var(--bcolor1) 60%, var(--bcolor4) 40% );
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: var(--bcolor2);
-    color: var(--bcolor3);
+#welcome-section {
+  background: linear-gradient(45deg, var(--bcolor1) 60%, var(--bcolor4) 40%);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--bcolor2);
+  color: var(--bcolor3);
 }
 
-#welcome-section>div{
-    position: relative;
-    left: 10%;
+#welcome-section > div {
+  position: relative;
+  left: 10%;
 }
 
-i{
-    color: var(--bcolor3);
-    font-size: 3rem;
+i {
+  color: var(--bcolor3);
+  font-size: 3rem;
 }
 
-#photo{
-    position: relative;
-    right: 10%;
-    margin-right: 5%;
-    width: 40rem;
+#photo {
+  position: relative;
+  right: 10%;
+  margin-right: 5%;
+  width: 40rem;
 }
 
-#projects{
-    padding: 3rem;
-    max-width: 100%;
-    background: linear-gradient(30deg, var(--bcolor4) 30%, var(--bcolor5) 40%, var(--bcolor2) 30%);
+#projects {
+  padding: 3rem;
+  max-width: 100%;
+  background: linear-gradient(
+    30deg,
+    var(--bcolor4) 30%,
+    var(--bcolor5) 40%,
+    var(--bcolor2) 30%
+  );
 }
 
-.project-tile{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    
+.project-tile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
 }
 
-.project{
-    max-width: 100%;
+.project {
+  max-width: 100%;
 }
 
-a>img{
-    border-radius: 2rem;
-    width: 50rem;
-    min-width: 30rem;
+a > img {
+  border-radius: 2rem;
+  width: 50rem;
+  min-width: 30rem;
 }
 
-figcaption{
-    font-size: 3rem;
-    color: var(--bcolor3);
-    text-align: center;
+figcaption {
+  font-size: 3rem;
+  color: var(--bcolor3);
+  text-align: center;
 }
 
-hr{
-    border: 0.3rem solid var(--bcolor4);
-    margin-top: 0.2rem;
-    margin-bottom: 3rem;
+hr {
+  border: 0.3rem solid var(--bcolor4);
+  margin-top: 0.2rem;
+  margin-bottom: 3rem;
 }
 
-#project-header{
-    margin: 6.5rem auto 1rem auto;
+#project-header {
+  margin: 6.5rem auto 1rem auto;
 }
 
-
-#contact{
-    padding: 4rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 4rem;
-    background: linear-gradient(45deg,var(--bcolor2) 60%, var(--bcolor4) 40% );
-
+#contact {
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  background: linear-gradient(45deg, var(--bcolor2) 60%, var(--bcolor4) 40%);
 }
 
-.icons{
-    display: flex;
-    gap: 1.5rem;
-    justify-content: center;
+.icons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
 }
 
 @media screen and (max-width: 885px) {
-    html{
-        font-size: 55%;
-    }
+  html {
+    font-size: 55%;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    html{
-        font-size: 50%;
-    }
+  html {
+    font-size: 50%;
+  }
 
-    #projects{
-        padding: 3rem;
-        max-width: 100%;
-        background: linear-gradient(30deg, var(--bcolor4) 30%, var(--bcolor5) 40%, var(--bcolor2) 30%);
-    }
-
+  #projects {
+    padding: 3rem;
+    max-width: 100%;
+    background: linear-gradient(
+      30deg,
+      var(--bcolor4) 30%,
+      var(--bcolor5) 40%,
+      var(--bcolor2) 30%
+    );
+  }
 }
 
 @media screen and (max-width: 550px) {
-    html{
-        font-size: 45%;
-    }
+  html {
+    font-size: 45%;
+  }
 
-    #welcome-section{
-        display: flex;
-        align-items: center;
-        flex-shrink: 1rem;
-    }    
+  #welcome-section {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1rem;
+  }
 
-    #welcome-section>div{
-        position: relative;
-        left: 0;
-        
-    }
+  #welcome-section > div {
+    position: relative;
+    left: 0;
+  }
 
-    #photo{
-        position: relative;
-        right: 10%;
-        margin-right: 5%;
-        width: 30rem;
-        height: 30rem;
-    }
+  #photo {
+    position: relative;
+    right: 10%;
+    margin-right: 5%;
+    width: 30rem;
+    height: 30rem;
+  }
 }
 
 @media screen and (max-width: 420px) {
-    html{
-        font-size: 40%;
-    }
+  html {
+    font-size: 40%;
+  }
 
-    #welcome-section{
-        display: flex;
-        align-items: center;
-        flex-shrink: 1rem;
-        gap: 3rem;
-    }    
+  #welcome-section {
+    display: flex;
+    align-items: center;
+    flex-shrink: 1rem;
+    gap: 3rem;
+  }
 
-    #welcome-section>div{
-        position: relative;
-        left: 1rem;
-        
-    }
+  #welcome-section > div {
+    position: relative;
+    left: 1rem;
+  }
 
-    #photo{
-        position: relative;
-        width: 30rem;
-        height: 30rem;
-    }
+  #photo {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+  }
 
-
-#projects{
+  #projects {
     padding: 3rem;
     max-width: 100%;
-    background: linear-gradient(30deg, var(--bcolor4) 30%, var(--bcolor5) 40%, var(--bcolor2) 30%);
-}
+    background: linear-gradient(
+      30deg,
+      var(--bcolor4) 30%,
+      var(--bcolor5) 40%,
+      var(--bcolor2) 30%
+    );
+  }
 
-.project-tile{
+  .project-tile {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     gap: 2rem;
-    
-}
+  }
 
-.project{
+  .project {
     max-width: 100%;
-}
+  }
 
-a>img{
+  a > img {
     border-radius: 2rem;
     width: 30rem;
     height: 30rem;
-}
+  }
 
-figcaption{
+  figcaption {
     font-size: 3rem;
     color: var(--bcolor3);
     text-align: center;
-}
+  }
 
-hr{
+  hr {
     border: 0.3rem solid var(--bcolor4);
     margin-top: 0.2rem;
     margin-bottom: 3rem;
-}
+  }
 
-#project-header{
+  #project-header {
     margin: 15rem auto 1rem auto;
-}
+  }
 
-#contact::before{
+  #contact::before {
     border: 3rem solid var(--bcolor1);
-}
-
+  }
 }
